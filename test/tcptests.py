@@ -1,19 +1,12 @@
 import unittest
 
-# class TCPTests(unittest.TestCase):
-# def SetUp(self):
-#     None
-#
-# def TearDown(self):
-#     None
-#
-# # tearing every fuck down
-#
-# # -*- TESTS -*-
-#
-# def TestSuccessfulConnection(self):
-#     None
 
+class TCPTests(unittest.TestCase):
+    def setUp(self):
+        pass
 
-if __name__ == '__main__':
-    unittest.main()
+    def tearDown(self):
+        pass
+
+    def test_everythingIsFile(self):
+        pass
