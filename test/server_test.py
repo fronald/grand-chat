@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import MagicMock
 
-from src.server.tcp_server import TCPServer
+from gc.server.tcp_server import TCPServer
 
 
 class TCPServerTests(unittest.TestCase):

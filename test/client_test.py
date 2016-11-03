@@ -3,15 +3,15 @@ import unittest
 
 from mock.mock import MagicMock
 
-from src.client.client import TCPClient
+from gc.client.tcp_client import TCPClient
 
 
 class TCPClientTest(unittest.TestCase):
     def setUp(self):
-        None
+        pass
 
     def tearDown(self):
-        None
+        pass
 
     def test_socketConnectionSuccessful(self):
         """Test whether the TCPClient can successfully connect to an open socket"""
