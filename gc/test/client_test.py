@@ -1,9 +1,10 @@
 import socket
 import unittest
+import env
 
 from mock.mock import MagicMock
 
-from gc.client.tcp_client import TCPClient
+from client.tcp_client import TCPClient
 
 
 class TCPClientTest(unittest.TestCase):
